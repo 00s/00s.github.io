@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta content='width=device-width, initial-scale=1', name='viewport', maximum-scale=1.0, user-scalable='no'  />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>LORN</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/main.css" type='text/css'>
+
+        <!--  GOOGLE FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body onload="preload()" style="background-color: black;">
+
+        <!-- Canvas -->
+        <canvas id="canvas"  style="background-color: #003380;"></canvas>
+
+        <!-- JavaScript Section -->
+        <script src="script/lib/jquery-2.1.1.min.js"></script>
+
+        <!-- Game Frameworks -->
+        <script src="script/lib/easeljs-0.7.1.min.js"></script>
+        <script src="script/lib/tweenjs-0.5.1.min.js"></script>
+        <script src="script/lib/soundjs-0.5.2.min.js"></script>
+        <script src="script/lib/preloadjs-0.4.1.min.js"></script>
+
+        <!-- helper functions -->
+        <script src="script/helpers.js"></script>
+        <!-- 
+            Game Classes :
+                Class files must be required before game.js 
+        -->
+        <script src="script/classes/Brand.js"></script>
+        <script src="script/classes/Lorn.js"></script>
+        <script src="script/classes/Cat.js"></script>
+        <script src="script/classes/FireBall.js"></script>
+        <script src="script/classes/DeathBall.js"></script>
+        <script src="script/classes/Tree.js"></script>
+        <script src="script/classes/Display.js"></script>
+        <script src="script/classes/Diamond.js"></script>
+        <script src="script/classes/Death.js"></script>
+
+        <!-- Game Filters -->
+        <script src="script/filters/BoxBlurFilter.js"></script>
+
+        <!-- Game logic -->
+        <script src="script/game.js"></script>
+    </body>
+
+</html>
